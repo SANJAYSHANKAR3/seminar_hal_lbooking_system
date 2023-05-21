@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/login"
+    android:padding="24dp"
+    tools:context=".bookingdetails2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                 android:id="@+id/tv"
+        android:layout_marginVertical="16dp"
+        android:gravity="center_horizontal"
+        android:text="C BLOCK "
+        android:textColor="@color/orange"
+        android:padding="39dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/a223"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:background="@drawable/btndesign"
+        android:padding="20dp"
+        android:text="C113               SEATINGS:300"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/c225"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a223"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btndesign"
+        android:padding="20dp"
+        android:text="C225               SEATINGS:250"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</RelativeLayout>

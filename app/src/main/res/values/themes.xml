@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Minp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/backgroundColor</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- Base application theme. -->
+        <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="Theme.Minp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+
+    <!--styles for app-->
+    <!--df dialog-->
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/green_50</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="viewParent.headerText.NoMode">
+        <item name="android:textColor">@color/red_50</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:backgroundTint">@color/orange</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerHintText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="Theme.Minp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Minp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- </style>-->
+</resources>

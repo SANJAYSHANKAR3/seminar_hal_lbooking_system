@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Color palette-->
+<resources>
+<color name="pink_50">#FCE4EC</color>
+    <color name="black">#151414</color>
+    <color name="white">#F1E8E8</color>
+<color name="red_50">#FFEBEE</color>
+<color name="red_100">#F6BAC1</color>
+<color name="red_200">#F08C98</color>
+<color name="red_300">#EA5E6F</color>
+<color name="red_400">#E63C50</color>
+<color name="red_500">#E11931</color>
+<color name="red_600">#DD162C</color>
+<color name="red_700">#D91225</color>
+<color name="red_800">#D50E1F</color>
+<color name="red_900">#BD0811</color>
+<color name="red_1000">#A70512</color>
+<color name="red_a100">#FFF6F7</color>
+<color name="red_a200">#FFC3C6</color>
+<color name="red_a400">#FF9094</color>
+<color name="red_a700">#FF6166</color>
+
+<color name="green_50">#E9F6EE</color>
+<color name="green_100">#C8E9D5</color>
+<color name="green_200">#A4DBB9</color>
+<color name="green_300">#80CC9C</color>
+<color name="green_400">#64C187</color>
+<color name="green_500">#49B672</color>
+<color name="green_600">#42AF6A</color>
+<color name="green_700">#39A65F</color>
+<color name="green_800">#319E55</color>
+<color name="green_900">#218E42</color>
+<color name="green_a100">#4CFE7D</color>
+<color name="green_a200">#CBFFD9</color>
+<color name="green_a400">#98FEB4</color>
+<color name="green_a700">#65FE8F</color>
+
+<color name="coloraccent">#FF5722</color>
+<color name="orange">#FF5722</color>
+</resources>

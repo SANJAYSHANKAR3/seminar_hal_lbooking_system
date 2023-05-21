@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".about">
+
+
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:text="about"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="100px"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:layout_marginTop="50dp"
+        android:text="This app is created to avoid confusion to the staffs while booking seminar halls in DR.MAHALINGAM COLLEGE OF ENGINEERING AND TECHNOLOGY
+ "
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:layout_marginTop="30dp"
+        android:text="ADVANTAGES"
+        android:textSize="25dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"/>
+<TextView
+    android:id="@+id/four"
+    android:layout_below="@+id/three"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="\n
+    * Staff can book seminar halls through online at ease\n
+
+*confusion will be avoided while booking halls\n"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/four"
+        android:textColor="@color/orange"
+        android:text="   This app was developed by   SANJAY SHANKAR AJ\n
+  Studying @Dr.MCET pollachi"/>
+
+
+
+    </RelativeLayout>

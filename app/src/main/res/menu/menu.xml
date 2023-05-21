@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="profile"
+    android:id="@+id/profile"
+    android:icon="@drawable/person"/>
+    <item
+    android:title="book halls"
+    android:id="@+id/bookhalls"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        />
+    <item
+        android:title="Register"
+        android:id="@+id/register"
+        android:icon="@drawable/registration"
+        />
+    <item
+        android:title="More info"
+        android:id="@+id/moreinfo"
+        android:icon="@drawable/ic_baseline_info_24"/>
+
+</menu>
